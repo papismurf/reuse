@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     # Local Apps
-    "itemised",
+    "itemise",
 ]
 
 MIDDLEWARE = [

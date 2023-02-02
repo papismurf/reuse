@@ -1,0 +1,56 @@
+[
+{
+    "model": "bills.bill",
+    "pk": 1,
+    "fields": {
+        "created": "2020-03-24T18:16:39.102Z"
+    }
+},
+{
+    "model": "bills.bill",
+    "pk": 2,
+    "fields": {
+        "created": "2020-03-24T18:16:41.005Z"
+    }
+},
+{
+    "model": "bills.item",
+    "pk": 1,
+    "fields": {
+        "created": "2020-03-24T18:16:59.357Z",
+        "description": "wine",
+        "cost": "15.25",
+        "bill": 1
+    }
+},
+{
+    "model": "bills.item",
+    "pk": 2,
+    "fields": {
+        "created": "2020-03-24T18:17:25.548Z",
+        "description": "pasta",
+        "cost": "22.30",
+        "bill": 1
+    }
+},
+{
+    "model": "bills.item",
+    "pk": 3,
+    "fields": {
+        "created": "2020-03-24T18:19:37.359Z",
+        "description": "beer",
+        "cost": "69.45",
+        "bill": 2
+    }
+},
+{
+    "model": "bills.item",
+    "pk": 4,
+    "fields": {
+        "created": "2020-03-24T18:19:51.475Z",
+        "description": "pizza",
+        "cost": "12.80",
+        "bill": 2
+    }
+}
+]
